@@ -36,9 +36,10 @@ nav #navigation-right #menu {
   list-style-type: none;
 }
 nav #navigation-right #menu a {
-  font-size: 13pt;
+  font-size: 12pt;
   color: #6C7583;
   font-weight: 400;
+  font-family: 'Roboto Slab', serif;
   letter-spacing: 0.2px;
   text-decoration: none;
   transition: 0.5s;
