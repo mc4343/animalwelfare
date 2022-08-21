@@ -34,7 +34,7 @@
   font-weight: 800;
   font-size: 54pt;
   color: #6C7583;
-  margin: 1em 0 0 36px;
+  margin: 1em 0 0 0;
 }
 .font-heading_text-h2 {
   font-family: 'Inter', sans-serif;
@@ -176,7 +176,7 @@ h1 {
   font-weight: 800;
   font-size: 54pt;
   color: #6C7583;
-  margin: 1em 0 0 36px;
+  margin: 1em 0 0 0;
   letter-spacing: 2px;
 }
 h2 {
@@ -233,7 +233,6 @@ p {
 #row-banner h1 {
   color: #FFF;
   line-height: 120%;
-  text-align: right;
 }
 #row-banner .button-primary {
   float: right;
@@ -250,7 +249,6 @@ p {
   margin-right: 24px;
 }
 #row-banner form {
-  float: right;
   margin-top: 2em;
 }
 #row-banner form button {
