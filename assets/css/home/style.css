@@ -139,9 +139,9 @@
   font-weight: 300;
   color: #25282F;
   margin: 0 0 16px 0;
-  color: #FB4570;
+  color: #F36200;
   background-color: #FFF;
-  border: 2px solid #FF647F;
+  border: 2px solid #FF7618;
   border-radius: 2px;
   padding: 12px 20px 10px 20px;
   transition: 0.3s;
@@ -161,8 +161,8 @@
 }
 .button-primary button:hover {
   color: #FFF;
-  background-color: #FB4570;
-  border: 2px solid #FF647F;
+  background-color: #F36200;
+  border: 2px solid #FF7618;
   cursor: pointer;
 }
 html {
@@ -249,8 +249,46 @@ p {
 #row-banner ul li:nth-child(1) {
   margin-right: 24px;
 }
+#row-banner form {
+  float: right;
+  margin-top: 2em;
+}
+#row-banner form button {
+  font-family: 'Roboto Slab', serif;
+  margin: 0;
+  font-size: 13pt;
+  line-height: 160%;
+  font-weight: 300;
+  color: #25282F;
+  margin: 0 0 16px 0;
+  color: #F36200;
+  background-color: #FFF;
+  border: 2px solid #FF7618;
+  border-radius: 2px;
+  padding: 12px 20px 10px 20px;
+  transition: 0.3s;
+  display: inline-flex;
+  align-items: center;
+}
+#row-banner form button span {
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 12pt;
+  letter-spacing: 0.4px;
+  margin-left: 0;
+}
+#row-banner form button span img {
+  width: 80%;
+  float: right;
+}
+#row-banner form button:hover {
+  color: #FFF;
+  background-color: #F36200;
+  border: 2px solid #FF7618;
+  cursor: pointer;
+}
 #row-discover h2 {
-  color: #FB4570;
+  color: #F36200;
 }
 #row-discover .container-columns-33_33_33 {
   grid-gap: 0.5em;
@@ -273,7 +311,7 @@ p {
   bottom: 0;
   margin: auto;
   position: absolute;
-  background: #FB4570;
+  background: #F36200;
   color: #fff;
   opacity: 0;
   transition: 0.3s;
