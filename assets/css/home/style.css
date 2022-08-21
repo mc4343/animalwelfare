@@ -25,10 +25,17 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+.container-columns-33_33_33 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.container-columns-100 {
+  display: block;
+}
 .font-heading_text-h1 {
   font-family: 'Inter', sans-serif;
   font-weight: 800;
-  font-size: 42pt;
+  font-size: 54pt;
   color: #6C7583;
   margin: 0 0 36px;
 }
@@ -176,9 +183,10 @@ body {
 h1 {
   font-family: 'Inter', sans-serif;
   font-weight: 800;
-  font-size: 42pt;
+  font-size: 54pt;
   color: #6C7583;
   margin: 0 0 36px;
+  letter-spacing: 2px;
 }
 h2 {
   font-family: 'Roboto Slab', serif;
