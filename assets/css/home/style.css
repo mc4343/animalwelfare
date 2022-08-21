@@ -264,11 +264,8 @@ p {
 #row-discover .container-columns-33_33_33 div a img {
   max-width: 100%;
   min-width: 100%;
-  min-height: 250px;
-  border-radius: 2px;
 }
 #row-discover .container-columns-33_33_33 div a h4 {
-  line-height: initial;
   text-align: center;
   top: 0;
   left: 0;
@@ -283,14 +280,8 @@ p {
   margin-block-end: 0;
   padding: 20% 1em 0 1em;
 }
-#row-discover .container-columns-33_33_33 div a h4 span {
-  font-weight: 300;
-  font-size: 14pt;
-  width: 90%;
-  padding-top: 0;
-}
 #row-discover .container-columns-33_33_33 div a h4:hover {
-  opacity: 0.8;
+  opacity: 0.9;
 }
 #row-discover .container-columns-33_33_33 div .font-caption {
   display: none;
