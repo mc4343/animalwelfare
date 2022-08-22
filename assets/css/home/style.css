@@ -131,38 +131,30 @@
   font-weight: 400;
   color: #6C7583;
 }
-.button-primary button {
-  font-family: 'Roboto Slab', serif;
-  margin: 0;
-  font-size: 13pt;
-  line-height: 160%;
-  font-weight: 300;
-  color: #25282F;
-  margin: 0 0 16px 0;
-  color: #F36200;
-  background-color: #FFF;
-  border: 2px solid #FF7618;
-  border-radius: 2px;
-  padding: 12px 20px 10px 20px;
+form button {
+  font-family: 'Inter', sans-serif;
+  color: #FFF;
+  background-color: #34D1A2;
+  border: none;
+  padding: 16px 20px 16px 20px;
   transition: 0.3s;
   display: inline-flex;
   align-items: center;
 }
-.button-primary button span {
+form button span {
   margin-bottom: 0;
-  font-weight: 400;
-  font-size: 12pt;
-  letter-spacing: 0.4px;
+  font-weight: 800;
+  font-size: 11.5pt;
+  letter-spacing: 0.8px;
   margin-left: 0;
 }
-.button-primary button span img {
+form button span img {
   width: 80%;
   float: right;
 }
-.button-primary button:hover {
+form button:hover {
   color: #FFF;
-  background-color: #F36200;
-  border: 2px solid #FF7618;
+  background-color: #0CC398;
   cursor: pointer;
 }
 html {
@@ -228,65 +220,37 @@ p {
 #row-banner {
   background-image: url("../../images/backgrounds/banner-home.png");
   background-size: cover;
-  height: 80vh;
+  min-height: 80vh;
+  max-height: 90vh;
 }
 #row-banner h1 {
-  color: #FFF;
-  line-height: 120%;
-}
-#row-banner .button-primary {
-  float: right;
-  margin-top: 167%;
+  color: #FCFCFC;
+  line-height: 124%;
+  width: 67%;
+  text-shadow: 2px 2px 6px #313131;
 }
 #row-banner ul {
   float: right;
   display: inline-flex;
+  margin-top: 4em;
 }
 #row-banner ul li span {
   width: 100%;
 }
-#row-banner ul li:nth-child(1) {
-  margin-right: 24px;
+#row-banner ul li:nth-child(2) {
+  margin-left: 24px;
 }
-#row-banner form {
-  margin-top: 2em;
+#row-banner ul li:nth-child(2) form button {
+  color: #34D1A2;
+  background-color: #FCFCFC;
 }
-#row-banner form button {
-  font-family: 'Roboto Slab', serif;
-  margin: 0;
-  font-size: 13pt;
-  line-height: 160%;
-  font-weight: 300;
-  color: #25282F;
-  margin: 0 0 16px 0;
-  color: #F36200;
-  background-color: #FFF;
-  border: 2px solid #FF7618;
-  border-radius: 2px;
-  padding: 12px 20px 10px 20px;
-  transition: 0.3s;
-  display: inline-flex;
-  align-items: center;
-}
-#row-banner form button span {
-  margin-bottom: 0;
-  font-weight: 400;
-  font-size: 12pt;
-  letter-spacing: 0.4px;
-  margin-left: 0;
-}
-#row-banner form button span img {
-  width: 80%;
-  float: right;
-}
-#row-banner form button:hover {
+#row-banner ul li:nth-child(2) form button:hover {
   color: #FFF;
-  background-color: #F36200;
-  border: 2px solid #FF7618;
+  background-color: #0CC398;
   cursor: pointer;
 }
 #row-discover h2 {
-  color: #F36200;
+  color: #0CC398;
 }
 #row-discover .container-columns-33_33_33 {
   grid-gap: 0.5em;
@@ -309,7 +273,7 @@ p {
   bottom: 0;
   margin: auto;
   position: absolute;
-  background: #F36200;
+  background: #0CC398;
   color: #fff;
   opacity: 0;
   transition: 0.3s;
@@ -317,7 +281,9 @@ p {
   padding: 20% 1em 0 1em;
 }
 #row-discover .container-columns-33_33_33 div a h4:hover {
-  opacity: 0.9;
+  color: #FFF;
+  background-color: #0CC398;
+  cursor: pointer;
 }
 #row-discover .container-columns-33_33_33 div .font-caption {
   display: none;
