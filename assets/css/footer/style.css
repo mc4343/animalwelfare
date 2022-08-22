@@ -1,0 +1,45 @@
+.font-body_text-p {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  font-size: 14pt;
+  line-height: 160%;
+  font-weight: 400;
+  color: #25282F;
+}
+footer {
+  width: 100%;
+  background-color: #34D1A2;
+  z-index: 1;
+  text-align: right;
+  border-top: 1px solid #c4c4c4;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  font-size: 14pt;
+  line-height: 160%;
+  font-weight: 400;
+  color: #25282F;
+  color: #FCFCFC;
+}
+footer div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 67%;
+  padding: 12px 0 12px 0;
+  margin: auto;
+}
+footer div ul {
+  margin: 0;
+  display: inline-flex;
+}
+footer div ul li a .footer-icon {
+  margin-top: 2px;
+  height: 24px;
+}
+footer div ul li a #footer-icon_instagram {
+  padding-left: 24px;
+}
+footer div ul li:nth-child(1) {
+  margin-right: 32px;
+}
