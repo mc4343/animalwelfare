@@ -101,9 +101,9 @@
 .font-body_text-p{
   font-family: 'Roboto Slab', serif;
   margin:0;
-  font-size:13pt;
+  font-size:14pt;
   line-height:160%;
-  font-weight:300;
+  font-weight:400;
   color:@color-text_1;
   margin: 0 0 16px 0;
 }
@@ -258,6 +258,22 @@ p{
   }
 }
 
+#row-mission{
+  background-image:url("../../images/backgrounds/background-pattern-1.png");
+  background-repeat:repeat;
+  min-height:70vh;
+  h2{
+    color:@color-text_2;
+  }
+  h4{
+    color:@color-CTA-hover;
+  }
+  .container-columns-67_33{
+    grid-gap:4em;
+    margin-top:1em;
+  }
+}
+
 #row-discover{
   h2{
     color:@color-CTA-hover;
@@ -289,9 +305,7 @@ p{
           margin-block-end:0;
           padding:20% 1em 0 1em;
           &:hover{
-            color:@color-primary;
-            background-color:@color-CTA-hover;
-            cursor: pointer;
+            opacity:.92;
           }
         }
       }

@@ -76,17 +76,18 @@
 .font-body_text-p {
   font-family: 'Roboto Slab', serif;
   margin: 0;
-  font-size: 13pt;
+  font-size: 14pt;
   line-height: 160%;
-  font-weight: 300;
+  font-weight: 400;
   color: #25282F;
   margin: 0 0 16px 0;
 }
 .font-hyperlink_text {
   font-family: 'Roboto Slab', serif;
   margin: 0;
-  font-size: 13pt;
+  font-size: 14pt;
   line-height: 160%;
+  font-weight: 400;
   color: #25282F;
   margin: 0 0 16px 0;
   text-decoration: none;
@@ -100,8 +101,8 @@
 .font-hyperlink_in-text {
   font-family: 'Roboto Slab', serif;
   margin: 0;
-  font-size: 13pt;
   line-height: 160%;
+  font-weight: 400;
   color: #25282F;
   margin: 0 0 16px 0;
   color: #2E69FF;
@@ -211,9 +212,9 @@ h5 {
 p {
   font-family: 'Roboto Slab', serif;
   margin: 0;
-  font-size: 13pt;
+  font-size: 14pt;
   line-height: 160%;
-  font-weight: 300;
+  font-weight: 400;
   color: #25282F;
   margin: 0 0 16px 0;
 }
@@ -249,6 +250,21 @@ p {
   background-color: #0CC398;
   cursor: pointer;
 }
+#row-mission {
+  background-image: url("../../images/backgrounds/background-pattern-1.png");
+  background-repeat: repeat;
+  min-height: 70vh;
+}
+#row-mission h2 {
+  color: #6C7583;
+}
+#row-mission h4 {
+  color: #0CC398;
+}
+#row-mission .container-columns-67_33 {
+  grid-gap: 4em;
+  margin-top: 1em;
+}
 #row-discover h2 {
   color: #0CC398;
 }
@@ -281,9 +297,7 @@ p {
   padding: 20% 1em 0 1em;
 }
 #row-discover .container-columns-33_33_33 div a h4:hover {
-  color: #FFF;
-  background-color: #0CC398;
-  cursor: pointer;
+  opacity: 0.92;
 }
 #row-discover .container-columns-33_33_33 div .font-caption {
   display: none;
