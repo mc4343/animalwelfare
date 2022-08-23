@@ -339,6 +339,7 @@ p {
   margin-top: 2em;
 }
 #row-discover .container-columns-50_50 div img {
+  float: right;
   max-width: 80%;
   border-radius: 50%;
 }
