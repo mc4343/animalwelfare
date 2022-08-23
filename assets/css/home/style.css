@@ -1,3 +1,11 @@
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .container-section-100 {
   margin: 0 auto;
   background: #FCFCFC;
@@ -15,6 +23,10 @@
   padding-top: 4em;
 }
 .container-columns-67_33 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.container-columns-33_67 {
   display: grid;
   grid-template-columns: 2fr 1fr;
 }
@@ -77,7 +89,7 @@
   margin: 0;
   font-size: 14pt;
   line-height: 160%;
-  font-weight: 300;
+  font-weight: 400;
   color: #25282F;
   margin: 0 0 16px 0;
 }
@@ -86,6 +98,7 @@
   margin: 0;
   font-size: 14pt;
   line-height: 160%;
+  font-weight: 400;
   color: #25282F;
   margin: 0 0 16px 0;
   text-decoration: none;
@@ -100,6 +113,7 @@
   font-family: 'Roboto Slab', serif;
   margin: 0;
   line-height: 160%;
+  font-weight: 400;
   color: #25282F;
   margin: 0 0 16px 0;
   color: #2E69FF;
@@ -210,58 +224,62 @@ p {
   margin: 0;
   font-size: 14pt;
   line-height: 160%;
-  font-weight: 300;
+  font-weight: 400;
   color: #25282F;
   margin: 0 0 16px 0;
 }
 #row-banner {
   background-image: url("../../images/backgrounds/banner-home.png");
   background-size: cover;
-  min-height: 90vh;
 }
-#row-banner h1 {
+#row-banner .container-inner-67 {
+  padding-bottom: 0 !important;
+}
+#row-banner .container-inner-67 h1 {
   color: #FCFCFC;
   line-height: 124%;
   text-shadow: 2px 2px 6px #313131;
   margin-top: 2em;
 }
-#row-banner ul {
+#row-banner .container-inner-67 ul {
   float: right;
   display: inline-flex;
-  margin-top: 4em;
+  margin: 4em 0 20px 0;
 }
-#row-banner ul li span {
+#row-banner .container-inner-67 ul li span {
   width: 100%;
 }
-#row-banner ul li:nth-child(2) {
+#row-banner .container-inner-67 ul li:nth-child(2) {
   margin-left: 24px;
 }
-#row-banner ul li:nth-child(2) form button {
-  color: #34D1A2;
+#row-banner .container-inner-67 ul li:nth-child(2) form button {
+  color: #0CC398;
   background-color: #FCFCFC;
 }
-#row-banner ul li:nth-child(2) form button:hover {
+#row-banner .container-inner-67 ul li:nth-child(2) form button:hover {
   color: #FFF;
   background-color: #0CC398;
   cursor: pointer;
 }
 #row-mission {
-  background-image: url("../../images/backgrounds/background-pattern-1.png");
-  background-repeat: repeat;
+  background-color: #0CC398;
   min-height: 80vh;
 }
 #row-mission h2 {
-  color: #6C7583;
+  color: #FCFCFC;
 }
 #row-mission h4 {
-  color: #0CC398;
+  color: #FCFCFC;
 }
-#row-mission .container-columns-67_33 {
+#row-mission p {
+  color: #25282F;
+}
+#row-mission .container-columns-50_50 {
   grid-gap: 2em;
 }
-#row-mission .container-columns-67_33 div img {
+#row-mission .container-columns-50_50 div img {
   max-width: 100%;
-  box-shadow: 2px 2px 6px #CCCCCC;
+  box-shadow: 2px 2px 6px #70675B;
 }
 #row-discover {
   background-color: #F88F14;

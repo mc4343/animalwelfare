@@ -12,6 +12,15 @@
 @box-shadow-misc: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0-secondary;
 
 
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
+
 .container-section-100{
   margin:0 auto;
   background:@color-secondary;
@@ -31,6 +40,11 @@
 }
 
 .container-columns-67_33{
+  display:grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.container-columns-33_67{
   display:grid;
   grid-template-columns: 2fr 1fr;
 }
@@ -101,7 +115,7 @@
   margin:0;
   font-size:14pt;
   line-height:160%;
-  font-weight:300;
+  font-weight:400;
   color:@color-text_1;
   margin: 0 0 16px 0;
 }
@@ -222,32 +236,34 @@ p{
 #row-banner{
   background-image: url("../../images/backgrounds/banner-home.png");
   background-size:cover;
-  min-height:90vh;
-  h1{
-    color:@color-secondary;
-    line-height:124%;
-    text-shadow: 2px 2px 6px #313131;
-    margin-top:2em;
-  }
-  ul{
-    float:right;
-    display:inline-flex;
-    margin-top:4em;
-    li{
-      span{
-        width:100%;
-      }
+  .container-inner-67{
+    padding-bottom:0 !important;
+    h1{
+      color:@color-secondary;
+      line-height:124%;
+      text-shadow: 2px 2px 6px #313131;
+      margin-top:2em;
     }
-    li:nth-child(2){
-      margin-left:24px;
-      form{
-        button{
-          color:@color-CTA;
-          background-color:@color-secondary;
-          &:hover{
-            color:@color-primary;
-            background-color:@color-CTA-hover;
-            cursor: pointer
+    ul{
+      float:right;
+      display:inline-flex;
+      margin:4em 0 20px 0;
+      li{
+        span{
+          width:100%;
+        }
+      }
+      li:nth-child(2){
+        margin-left:24px;
+        form{
+          button{
+            color:@color-CTA-hover;
+            background-color:@color-secondary;
+            &:hover{
+              color:@color-primary;
+              background-color:@color-CTA-hover;
+              cursor: pointer
+            }
           }
         }
       }
@@ -256,21 +272,25 @@ p{
 }
 
 #row-mission{
-  background-image:url("../../images/backgrounds/background-pattern-1.png");
-  background-repeat:repeat;
+  // background-image:url("../../images/backgrounds/background-pattern-1.png");
+  // background-repeat:repeat;
+  background-color:@color-CTA-hover;
   min-height:80vh;
   h2{
-    color:@color-text_2;
+    color:@color-secondary;
   }
   h4{
-    color:@color-CTA-hover;
+    color:@color-secondary;;
   }
-  .container-columns-67_33{
+  p{
+    color:@color-text_1;
+  }
+  .container-columns-50_50{
     grid-gap:2em;
     div{
       img{
         max-width:100%;
-        box-shadow: 2px 2px 6px #CCCCCC;
+        box-shadow: 2px 2px 6px #70675B;
       }
     }
   }
