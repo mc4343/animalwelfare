@@ -337,7 +337,6 @@ p {
 }
 #row-discover .container-columns-50_50 {
   grid-gap: 2em;
-  margin-top: 2em;
 }
 #row-discover .container-columns-50_50 div img {
   float: right;
