@@ -16,19 +16,17 @@
 .font-body_text-p {
   font-family: 'Inter', sans-serif;
   margin: 0;
-  font-size: 14pt;
   line-height: 160%;
   font-weight: 400;
   color: #25282F;
 }
 footer {
   width: 100%;
-  background-color: #0CC398;
+  background-color: #FCFCFC;
   z-index: 1;
   border-top: 1px solid #c4c4c4;
   font-family: 'Inter', sans-serif;
   margin: 0;
-  font-size: 14pt;
   line-height: 160%;
   font-weight: 400;
   color: #25282F;
@@ -43,8 +41,8 @@ footer .container-inner-67 div ul li {
   line-height: 260%;
 }
 footer .container-inner-67 div ul li a {
-  font-size: 12pt;
-  color: #FCFCFC;
+  font-size: 11.5pt;
+  color: #25282F;
   font-weight: 400;
   font-family: 'Inter', sans-serif;
   letter-spacing: 0.2px;
@@ -52,8 +50,5 @@ footer .container-inner-67 div ul li a {
   transition: 0.3s;
 }
 footer .container-inner-67 div ul li a:hover {
-  color: #FFE39A;
-}
-footer .container-inner-67 div ul li a img {
-  height: 64px;
+  color: #0CC398;
 }

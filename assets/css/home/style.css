@@ -28,7 +28,7 @@
 }
 .container-columns-33_67 {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr 2fr;
 }
 .container-columns-50_50 {
   display: grid;
@@ -75,8 +75,8 @@
   color: #6C7583;
 }
 .font-heading_text-h5 {
-  font-family: 'Roboto Slab', serif;
-  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
   font-size: 16.5pt;
   letter-spacing: 0.3px;
   margin: 0 0 12px 0;
@@ -87,18 +87,17 @@
 .font-body_text-p {
   font-family: 'Roboto Slab', serif;
   margin: 0;
-  font-size: 14pt;
-  line-height: 160%;
-  font-weight: 400;
+  font-size: 12pt;
+  line-height: 165%;
+  font-weight: 300;
   color: #25282F;
   margin: 0 0 16px 0;
 }
 .font-hyperlink_text {
   font-family: 'Roboto Slab', serif;
   margin: 0;
-  font-size: 14pt;
-  line-height: 160%;
-  font-weight: 400;
+  font-size: 12pt;
+  line-height: 165%;
   color: #25282F;
   margin: 0 0 16px 0;
   text-decoration: none;
@@ -112,8 +111,8 @@
 .font-hyperlink_in-text {
   font-family: 'Roboto Slab', serif;
   margin: 0;
-  line-height: 160%;
-  font-weight: 400;
+  font-size: 12pt;
+  line-height: 165%;
   color: #25282F;
   margin: 0 0 16px 0;
   color: #2E69FF;
@@ -146,7 +145,7 @@
 form button {
   font-family: 'Inter', sans-serif;
   color: #FFF;
-  background-color: #34D1A2;
+  background-color: #56BF97;
   border: none;
   padding: 16px 20px 16px 20px;
   transition: 0.3s;
@@ -210,8 +209,8 @@ h4 {
   color: #6C7583;
 }
 h5 {
-  font-family: 'Roboto Slab', serif;
-  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
   font-size: 16.5pt;
   letter-spacing: 0.3px;
   margin: 0 0 12px 0;
@@ -222,9 +221,9 @@ h5 {
 p {
   font-family: 'Roboto Slab', serif;
   margin: 0;
-  font-size: 14pt;
-  line-height: 160%;
-  font-weight: 400;
+  font-size: 12pt;
+  line-height: 165%;
+  font-weight: 300;
   color: #25282F;
   margin: 0 0 16px 0;
 }
@@ -262,14 +261,14 @@ p {
   cursor: pointer;
 }
 #row-mission {
-  background-color: #0CC398;
+  background-color: #FCFCFC;
   min-height: 80vh;
 }
 #row-mission h2 {
-  color: #FCFCFC;
+  color: #0CC398;
 }
 #row-mission h4 {
-  color: #FCFCFC;
+  color: #0CC398;
 }
 #row-mission p {
   color: #25282F;
@@ -282,12 +281,19 @@ p {
   box-shadow: 2px 2px 6px #70675B;
 }
 #row-discover {
-  background-color: #F88F14;
-  background-color: #FCFCFC;
-  min-height: 85vh;
+  background-color: #0CC398;
 }
 #row-discover h2 {
-  color: #6C7583;
+  color: #FCFCFC;
+}
+#row-discover h4 {
+  color: #FCFCFC;
+}
+#row-discover h5 {
+  color: #FFF;
+}
+#row-discover p {
+  color: #FFF;
 }
 #row-discover .container-columns-33_33_33 {
   grid-gap: 1em;
@@ -304,7 +310,7 @@ p {
   max-width: 100%;
   min-width: 100%;
 }
-#row-discover .container-columns-33_33_33 div a h4 {
+#row-discover .container-columns-33_33_33 div a h5 {
   text-align: center;
   top: 0;
   left: 0;
@@ -312,14 +318,14 @@ p {
   bottom: 0;
   margin: auto;
   position: absolute;
-  background: #0CC398;
-  color: #fff;
+  background: #FCFCFC;
+  color: #FCFCFC;
   opacity: 0;
   transition: 0.5s;
   margin-block-end: 0;
   padding: 20% 1em 0 1em;
 }
-#row-discover .container-columns-33_33_33 div a h4:hover {
+#row-discover .container-columns-33_33_33 div a h5:hover {
   opacity: 0.92;
 }
 #row-discover .container-columns-33_33_33 div .font-caption {
@@ -327,4 +333,12 @@ p {
 }
 #row-discover .container-columns-33_33_33 div:hover {
   box-shadow: 4px 4px 8px #B6C1BF;
+}
+#row-discover .container-columns-50_50 {
+  grid-gap: 2em;
+  margin-top: 2em;
+}
+#row-discover .container-columns-50_50 div img {
+  max-width: 80%;
+  border-radius: 50%;
 }

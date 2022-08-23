@@ -4,7 +4,7 @@
 @color-text_1:#25282F;
 @color-text_2:#6C7583;
 @color-light_grey:#a9a9a9;
-@color-CTA:#34D1A2;
+@color-CTA:#56BF97;
 @color-CTA-hover:#0CC398;
 @color-hyperlink:#2E69FF;
 @box-shadow-primary: rgba(60, 64, 67, 0.4) 0px 1.5px 3px 0px, rgba(60, 64, 67, 0.2) 0px -.5px 3px 1px;
@@ -46,7 +46,7 @@
 
 .container-columns-33_67{
   display:grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr 2fr;
 }
 
 .container-columns-50_50{
@@ -100,8 +100,8 @@
 }
 
 .font-heading_text-h5{
-  font-family: 'Roboto Slab', serif;
-  font-weight:400;
+  font-family: 'Inter', sans-serif;
+  font-weight:600;
   font-size:16.5pt;
   letter-spacing:.3px;
   margin: 0 0 12px 0;
@@ -113,9 +113,9 @@
 .font-body_text-p{
   font-family: 'Roboto Slab', serif;
   margin:0;
-  font-size:14pt;
-  line-height:160%;
-  font-weight:400;
+  font-size:12pt;
+  line-height:165%;
+  font-weight:300;
   color:@color-text_1;
   margin: 0 0 16px 0;
 }
@@ -274,13 +274,13 @@ p{
 #row-mission{
   // background-image:url("../../images/backgrounds/background-pattern-1.png");
   // background-repeat:repeat;
-  background-color:@color-CTA-hover;
+  background-color:@color-secondary;
   min-height:80vh;
   h2{
-    color:@color-secondary;
+    color:@color-CTA-hover;
   }
   h4{
-    color:@color-secondary;;
+    color:@color-CTA-hover;
   }
   p{
     color:@color-text_1;
@@ -297,11 +297,18 @@ p{
 }
 
 #row-discover{
-  background-color: #F88F14;
-  background-color: @color-secondary;
-  min-height:85vh;
+  background-color:@color-CTA-hover;
   h2{
-    color:@color-text_2;
+    color:@color-secondary;
+  }
+  h4{
+    color:@color-secondary;
+  }
+  h5{
+    color:@color-primary;
+  }
+  p{
+    color:@color-primary;
   }
   .container-columns-33_33_33{
     grid-gap:1em;
@@ -315,7 +322,7 @@ p{
           max-width:100%;
           min-width:100%;
         }
-        h4{
+        h5{
           text-align: center;
           top: 0;
           left: 0;
@@ -323,8 +330,8 @@ p{
           bottom: 0;
           margin: auto;
           position: absolute;
-          background: @color-CTA-hover;
-          color: #fff;
+          background: @color-secondary;
+          color: @color-secondary;
           opacity:0;
           transition:.5s;
           margin-block-end:0;
@@ -339,6 +346,16 @@ p{
       }
       &:hover{
         box-shadow: 4px 4px 8px #B6C1BF;
+      }
+    }
+  }
+  .container-columns-50_50{
+    grid-gap:2em;
+    margin-top:2em;
+    div{
+      img{
+        max-width:80%;
+        border-radius:50%;
       }
     }
   }
