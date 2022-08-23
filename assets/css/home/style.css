@@ -335,10 +335,10 @@ p {
 #row-discover .container-columns-33_33_33 div:hover {
   box-shadow: 4px 4px 8px #B6C1BF;
 }
-#row-discover .container-columns-50_50 {
+#row-discover .container-columns-67_33 {
   grid-gap: 2em;
 }
-#row-discover .container-columns-50_50 div img {
+#row-discover .container-columns-67_33 div img {
   float: right;
   max-width: 80%;
   border-radius: 50%;
