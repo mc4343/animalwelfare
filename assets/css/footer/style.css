@@ -1,3 +1,18 @@
+.container-inner-67 {
+  display: flex;
+  flex-direction: column;
+  padding: 2em 0 2em 0;
+  width: 67%;
+  margin: auto;
+  animation: fadeInAnimation ease 1.3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+.container-columns-33_33_33 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 .font-body_text-p {
   font-family: 'Inter', sans-serif;
   margin: 0;
@@ -8,9 +23,8 @@
 }
 footer {
   width: 100%;
-  background-color: #34D1A2;
+  background-color: #0CC398;
   z-index: 1;
-  text-align: right;
   border-top: 1px solid #c4c4c4;
   font-family: 'Inter', sans-serif;
   margin: 0;
@@ -20,26 +34,23 @@ footer {
   color: #25282F;
   color: #FCFCFC;
 }
-footer div {
+footer .container-inner-67 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-  width: 67%;
-  padding: 12px 0 12px 0;
-  margin: auto;
 }
-footer div ul {
-  margin: 0;
-  display: inline-flex;
+footer .container-inner-67 div ul li a {
+  font-size: 12pt;
+  color: #FCFCFC;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 0.2px;
+  text-decoration: none;
+  transition: 0.5s;
 }
-footer div ul li a .footer-icon {
-  margin-top: 2px;
-  height: 24px;
+footer .container-inner-67 div ul li a:hover {
+  color: #FFE39A;
 }
-footer div ul li a #footer-icon_instagram {
-  padding-left: 24px;
-}
-footer div ul li:nth-child(1) {
-  margin-right: 32px;
+footer .container-inner-67 div ul li a img {
+  height: 64px;
 }

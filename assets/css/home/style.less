@@ -55,7 +55,6 @@
   font-weight:800;
   font-size:54pt;
   color:@color-text_2;
-  margin:1em 0 0 0;
 }
 
 .font-heading_text-h2{
@@ -225,12 +224,11 @@ p{
   background-image: url("../../images/backgrounds/banner-home.png");
   background-size:cover;
   min-height:80vh;
-  max-height:90vh;
   h1{
     color:@color-secondary;
     line-height:124%;
-    width:67%;
     text-shadow: 2px 2px 6px #313131;
+    margin-top:2em;
   }
   ul{
     float:right;
@@ -263,10 +261,10 @@ p{
   background-repeat:repeat;
   min-height:70vh;
   h2{
-    color:@color-CTA-hover;
+    color:@color-text_2;
   }
   h4{
-    color:#EE8203;
+    color:@color-CTA-hover;
   }
   .container-columns-67_33{
     grid-gap:4em;
@@ -275,9 +273,10 @@ p{
 
 #row-discover{
   background-color: #F88F14;
+  background-color: @color-secondary;
   min-height:85vh;
   h2{
-    color:@color-secondary;
+    color:@color-text_2;
   }
   .container-columns-33_33_33{
     grid-gap:.5em;

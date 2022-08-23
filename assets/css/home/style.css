@@ -34,7 +34,6 @@
   font-weight: 800;
   font-size: 54pt;
   color: #6C7583;
-  margin: 1em 0 0 0;
 }
 .font-heading_text-h2 {
   font-family: 'Inter', sans-serif;
@@ -169,7 +168,6 @@ h1 {
   font-weight: 800;
   font-size: 54pt;
   color: #6C7583;
-  margin: 1em 0 0 0;
   letter-spacing: 2px;
 }
 h2 {
@@ -222,13 +220,12 @@ p {
   background-image: url("../../images/backgrounds/banner-home.png");
   background-size: cover;
   min-height: 80vh;
-  max-height: 90vh;
 }
 #row-banner h1 {
   color: #FCFCFC;
   line-height: 124%;
-  width: 67%;
   text-shadow: 2px 2px 6px #313131;
+  margin-top: 2em;
 }
 #row-banner ul {
   float: right;
@@ -256,20 +253,21 @@ p {
   min-height: 70vh;
 }
 #row-mission h2 {
-  color: #0CC398;
+  color: #6C7583;
 }
 #row-mission h4 {
-  color: #EE8203;
+  color: #0CC398;
 }
 #row-mission .container-columns-67_33 {
   grid-gap: 4em;
 }
 #row-discover {
   background-color: #F88F14;
+  background-color: #FCFCFC;
   min-height: 85vh;
 }
 #row-discover h2 {
-  color: #FCFCFC;
+  color: #6C7583;
 }
 #row-discover .container-columns-33_33_33 {
   grid-gap: 0.5em;
