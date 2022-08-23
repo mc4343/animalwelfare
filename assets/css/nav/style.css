@@ -42,7 +42,7 @@ nav #navigation-right #menu a {
   font-family: 'Inter', sans-serif;
   letter-spacing: 0.2px;
   text-decoration: none;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 nav #navigation-right #menu a:hover {
   color: #FFE39A;
