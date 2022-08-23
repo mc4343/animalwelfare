@@ -297,6 +297,7 @@ p {
 }
 #row-discover .container-columns-33_33_33 {
   grid-gap: 1em;
+  margin-top: 2em;
 }
 #row-discover .container-columns-33_33_33 div {
   box-shadow: 2px 2px 6px #CCCCCC;
