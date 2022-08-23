@@ -257,7 +257,11 @@ p {
   color: #0CC398;
 }
 #row-mission .container-columns-67_33 {
-  grid-gap: 4em;
+  grid-gap: 2em;
+}
+#row-mission .container-columns-67_33 div img {
+  max-width: 100%;
+  box-shadow: 2px 2px 6px #CCCCCC;
 }
 #row-discover {
   background-color: #F88F14;
@@ -277,7 +281,6 @@ p {
   position: relative;
   display: inline-block;
   vertical-align: middle;
-  margin: 0;
 }
 #row-discover .container-columns-33_33_33 div a img {
   max-width: 100%;

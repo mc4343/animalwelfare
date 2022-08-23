@@ -6,6 +6,7 @@
   animation: fadeInAnimation ease 1.3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+  padding-bottom: 3em;
 }
 .container-columns-33_33_33 {
   display: flex;
