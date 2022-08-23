@@ -39,6 +39,9 @@ footer .container-inner-67 {
   flex-direction: row;
   justify-content: space-between;
 }
+footer .container-inner-67 div ul li {
+  line-height: 260%;
+}
 footer .container-inner-67 div ul li a {
   font-size: 12pt;
   color: #FCFCFC;
