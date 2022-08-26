@@ -17,9 +17,14 @@ nav{
   flex-direction:row;
   justify-content:space-between;
   padding:16px 0 16px 0;
-  background-color:@color-secondary;
+  // background-color:@color-secondary;
+  // border-bottom:1px solid #c4c4c4;
+  background: rgba( 254, 254, 254, 0.85 );
+  box-shadow: 0 2px 4px 0 rgba( 0, 0, 0, 0.2 );
+  backdrop-filter: blur( 5.5px );
+  -webkit-backdrop-filter: blur( 8px );
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
   width:100%;
-  border-bottom:1px solid #c4c4c4;
   top:0;
   position:fixed;
   z-index:1;
@@ -28,7 +33,7 @@ nav{
     align-items:center;
     a{
       #logo{
-        height:42px;
+        height:36px;
         margin-left:16.5vw;
       }
     }
