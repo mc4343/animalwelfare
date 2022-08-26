@@ -3,7 +3,7 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   padding: 16px 0 16px 0;
-  background: rgba(254, 254, 254, 0.85);
+  background: rgba(254, 254, 254, 0.88);
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(5.5px);
   -webkit-backdrop-filter: blur(8px);
