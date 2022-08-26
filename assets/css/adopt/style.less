@@ -234,8 +234,10 @@ p{
 }
 
 #row-banner{
-  background-image: url("../../images/backgrounds/banner-home.png");
+  min-height:60vh;
+  background-image: url("../../images/backgrounds/banner-adopt.png");
   background-size:cover;
+  background-color:@color-CTA;
   .container-inner-67{
     padding-bottom:0 !important;
     h1{
@@ -246,7 +248,7 @@ p{
     }
     ul{
       display:inline-flex;
-      margin:2em 0 2em 0;
+      margin:4em 0 4em 0;
       li{
         span{
           width:100%;
@@ -270,93 +272,21 @@ p{
   }
 }
 
-#row-mission{
-  // background-image:url("../../images/backgrounds/background-pattern-1.png");
-  // background-repeat:repeat;
-  background-color:@color-secondary;
-  min-height:80vh;
-  h2{
-    color:@color-text_2;
-  }
-  h4{
-    color:@color-CTA-hover;
-  }
-  p{
-    color:@color-text_1;
-  }
-  .container-columns-50_50{
-    grid-gap:4em;
-    div{
-      img{
-        max-width:100%;
-        box-shadow: 2px 2px 6px #70675B;
-      }
-    }
-  }
-}
-
-#row-discover{
-  background-color:@color-CTA-hover;
-  padding-bottom:2em;
-  h2{
-    color:@color-secondary;
-  }
-  h4{
-    color:@color-secondary;
-  }
-  h5{
-    color:@color-primary;
-  }
-  p{
-    color:@color-primary;
-  }
-  .container-columns-33_33_33{
-    grid-gap:1em;
-    div{
-      box-shadow: 2px 2px 6px #516C66;
-      a{
-        position: relative;
-        display: inline-block;
-        vertical-align:middle;
-        img{
-          max-width:100%;
-          min-width:100%;
-        }
+#row-contact_info{
+  .container-inner-67{
+    .container-columns-50_50{
+      grid-gap:4em;
+      div{
         h5{
-          text-align: center;
-          top: 0;
-          left: 0;
-          right: 0;
-          bottom: 0;
-          margin: auto;
-          position: absolute;
-          background: @color-secondary;
-          color: @color-CTA-hover;
-          opacity:0;
-          transition:.5s;
-          margin-block-end:0;
-          padding:20% 1em 0 1em;
-          &:hover{
-            opacity:.92;
+          color:@color-CTA-hover;
+        }
+        ul{
+          li{
+            .font-body_text-p;
+            margin-bottom:8px;
+            list-style-type: circle;
           }
         }
-      }
-      .font-caption{
-        display:none;
-      }
-      &:hover{
-        box-shadow: 4px 8px 6px #516C66;
-      }
-    }
-  }
-  .container-columns-67_33{
-    grid-gap:2em;
-    div{
-      img{
-        float:right;
-        max-width:100%;
-        border-radius:50%;
-        box-shadow: 2px 2px 6px #516C66;
       }
     }
   }

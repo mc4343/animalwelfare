@@ -245,7 +245,7 @@ p {
   margin-top: 2em;
 }
 #row-contact_info .container-inner-67 .container-columns-50_50 {
-  grid-gap: 4em;
+  grid-gap: 2em;
 }
 #row-contact_info .container-inner-67 .container-columns-50_50 div h5 {
   color: #0CC398;
@@ -258,6 +258,13 @@ p {
   font-weight: 400;
   color: #25282F;
   margin: 0 0 16px 0;
-  margin-bottom: 8px;
+  margin-bottom: 4px;
   list-style-type: circle;
+}
+#row-contact_info .container-inner-67 .container-columns-50_50 div ul li a {
+  color: #E79126;
+  transition: 0.3s;
+}
+#row-contact_info .container-inner-67 .container-columns-50_50 div ul li a:hover {
+  color: #CA7204;
 }
