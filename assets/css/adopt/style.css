@@ -129,9 +129,9 @@
 .font-caption {
   color: #25282F;
   font-family: 'Roboto Slab', serif;
-  font-size: 11pt;
+  font-size: 10.5pt;
   line-height: 140%;
-  font-weight: 300;
+  font-weight: 400;
 }
 .font-italic {
   font-style: italic;
@@ -274,5 +274,18 @@ p {
   color: #0CC398;
 }
 #row-adopt .container-inner-67 #adopt-2 {
+  margin-top: 2em;
+}
+#row-adoptees .container-inner-67 .container-columns-33_33_33 {
+  grid-gap: 2em;
+}
+#row-adoptees .container-inner-67 .container-columns-33_33_33 div img {
+  max-width: 100%;
+  box-shadow: 1.5px 1.5px 8px grey;
+}
+#row-adoptees .container-inner-67 .container-columns-33_33_33 div h4 {
+  color: #0CC398;
+}
+#row-adoptees .container-inner-67 #adopt-2 {
   margin-top: 2em;
 }
