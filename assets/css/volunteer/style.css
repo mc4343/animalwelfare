@@ -230,7 +230,6 @@ p {
   margin: 0 0 16px 0;
 }
 #row-banner {
-  min-height: 80vh;
   background-image: url("../../images/backgrounds/banner-volunteer.png");
   background-size: cover;
   background-color: #56BF97;
@@ -248,20 +247,17 @@ p {
   display: inline-flex;
   margin: 4em 0 4em 0;
 }
-#row-banner .container-inner-67 ul li span {
-  width: 100%;
-}
-#row-banner .container-inner-67 ul li:nth-child(2) {
-  margin-left: 24px;
-}
-#row-banner .container-inner-67 ul li:nth-child(2) form button {
+#row-banner .container-inner-67 ul li button {
   color: #0CC398;
   background-color: #FCFCFC;
 }
-#row-banner .container-inner-67 ul li:nth-child(2) form button:hover {
+#row-banner .container-inner-67 ul li button:hover {
   color: #FFF;
   background-color: #0CC398;
   cursor: pointer;
+}
+#row-banner .container-inner-67 ul li span {
+  width: 100%;
 }
 #row-adopt .container-inner-67 .container-columns-50_50 {
   grid-gap: 4em;
