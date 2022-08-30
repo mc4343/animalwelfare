@@ -52,3 +52,11 @@ footer .container-inner-67 div ul li a {
 footer .container-inner-67 div ul li a:hover {
   color: #0CC398;
 }
+
+.footer {
+    text-align: center;
+    background-color: #ddd;
+    margin-top: 20px;
+    padding: 20px;
+    border: 10px #9ace8d solid;
+}
